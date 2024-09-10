@@ -1,0 +1,15 @@
+.task {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.task h2 {
+  margin: 0 0 10px 0;
+}
+
+.task p {
+  margin: 5px 0;
+}
