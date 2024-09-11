@@ -17,6 +17,11 @@ function Header() {
               Staff Management
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/form" className="nav-link">
+              Contact Form
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

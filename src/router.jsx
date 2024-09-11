@@ -8,7 +8,7 @@ function AppRoutes() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/staff-management" element={<StaffManagement />} />
-      <Route path="form" element={<ContactForm />} />
+      <Route path="/form" element={<ContactForm />} />
     </Routes>
   );
 }
