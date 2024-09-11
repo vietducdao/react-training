@@ -1,12 +1,12 @@
-// import React from "react";
-// import Counter from "../../component/Counter";
+import React from "react";
+import Counter from "../../component/Counter";
 
-// function HomePage() {
-//   return (
-//     <div>
-//       <Counter />
-//     </div>
-//   );
-// }
+function HomePage() {
+  return (
+    <div>
+      <Counter />
+    </div>
+  );
+}
 
-// export default HomePage;
+export default HomePage;
