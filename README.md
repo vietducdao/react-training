@@ -5,6 +5,7 @@
 ```bash
 npm install
 ```
+
 - Start Dev
 
 ```bash
@@ -12,6 +13,7 @@ npm install
 ```
 
 ## Cấu Trúc Dự Án
+
 ```
 my-app/
 │
@@ -57,6 +59,7 @@ my-app/
 - routes.js: Quản lý tất cả các route của ứng dụng bằng react-router-dom.
 
 ## Cấu Hình Routing
+
 - Các route được quản lý trong component AppRoutes tại tệp src/routes.js. Đây là cách bạn có thể thêm một route mới:
 
 - 1.Mở src/routes.js.
@@ -66,4 +69,15 @@ my-app/
 import AboutPage from './pages/AboutPage';
 
 <Route path="/about" element={<AboutPage />} />
+```
+
+```
+useEffect(callback)
+useEffect(callback,[])
+useEffect(callback,[deps])
+
+//=======
+1. Callback luôn được gọi khi component mouted, re-render
+
+
 ```

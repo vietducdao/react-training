@@ -22,6 +22,21 @@ function Header() {
               Contact Form
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/posts" className="nav-link">
+              Posts
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/time" className="nav-link">
+              clearInterval
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/user" className="nav-link">
+              UserForm
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
