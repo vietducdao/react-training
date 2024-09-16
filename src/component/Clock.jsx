@@ -6,7 +6,7 @@ const Clock = () => {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
-    // Hàm để cập nhật thời gian
+    // define update time
     const updateClock = () => {
       setTime(new Date());
     };

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import UserForm from "../pages/user/userForm";
+import UserForm from "../../component/userForm";
 
 const UserInfo = () => {
   const [name, setName] = useState("");

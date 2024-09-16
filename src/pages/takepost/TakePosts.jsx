@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import List from "./PostList";
+import List from "../../component/PostList";
 
 const TakePost = () => {
   const [posts, setPosts] = useState([]); //dung useState de luu tru
